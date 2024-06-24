@@ -17,7 +17,8 @@ set expandtab
 " Status line
 hi Status2 guifg=#F6955B guibg=#38A89D
 hi Status1 guifg=#008080 guibg=#fabd2f
-hi VertSplit ctermbg=white ctermfg=16 
+hi VertSplit ctermbg=NONE cterm=NONE ctermfg=239 
+hi Keyword ctermfg=11
 
 set statusline=%#Status2#[%f]
 set laststatus=2

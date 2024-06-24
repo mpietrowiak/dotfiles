@@ -14,7 +14,7 @@ window:
   padding:
     x: 15
     y: 15
-  opacity: 1 
+  opacity: 0.95 
 
 
 # https://github.com/hafiz-muhammad/midnight-haze-alacritty-theme/blob/main/midnight-haze.toml
