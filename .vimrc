@@ -20,7 +20,6 @@ hi Status1 guifg=#008080 guibg=#fabd2f
 set statusline=%#Status2#[%f]
 set laststatus=2
 set fillchars=stl:_,stlnc:_
-"set statusline=%=%f
 
 " Use ctrl+T
 let g:native_sidebar_shortcut = '<c-t>'
