@@ -17,9 +17,11 @@ set expandtab
 " Status line
 hi Status2 guifg=#F6955B guibg=#38A89D
 hi Status1 guifg=#008080 guibg=#fabd2f
+hi VertSplit ctermbg=white ctermfg=16 
+
 set statusline=%#Status2#[%f]
 set laststatus=2
-set fillchars=stl:_,stlnc:_
+set fillchars=stl:_,stlnc:_,vert:\|
 
 " Use ctrl+T
 let g:native_sidebar_shortcut = '<c-t>'
