@@ -11,6 +11,7 @@ shell:
 font:
   size: 12
 window:
+  decorations: None
   padding:
     x: 15
     y: 15
