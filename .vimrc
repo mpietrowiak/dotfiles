@@ -9,7 +9,10 @@ call plug#end()
 let g:neoformat_try_node_exe = 1
 let g:neoformat_only_msg_on_error = 1
 
-autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.json silent! Neoformat
+autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.mjs,*.mts,*.json silent! Neoformat
+
+au BufRead,BufNewFile *.mts set filetype=typescript
+
 
 let g:netrw_keepdir = 1
 
